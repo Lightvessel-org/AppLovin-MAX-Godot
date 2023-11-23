@@ -7,6 +7,13 @@
 .import/
 export.cfg
 
+# Godot Android ignores
+android/build/build/*
+android/build/assetPacks/*
+android/build/.idea/*
+android/build/.gradle/*
+android/build/assets/*
+
 # Imported translations (automatically generated from CSV files)
 *.translation
 
@@ -14,3 +21,8 @@ export.cfg
 .mono/
 data_*/
 mono_crash.*.json
+
+# Android specific ignores
+Source/Android/.gradle/*
+Source/Android/local.properties
+Source/Android/.idea/*
